@@ -1,7 +1,7 @@
 <?php
 /* Database connection settings */
-$host = 'localhost';
-$user = 'root';
-$pass = 'mypass123';
-$db = 'accounts';
+$host = 'repotest.database.windows.net';
+$user = 'sjoshy';
+$pass = '#Kottayam96';
+$db = 'UserNameDB';
 $mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
